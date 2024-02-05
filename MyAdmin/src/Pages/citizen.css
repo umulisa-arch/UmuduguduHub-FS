@@ -1,0 +1,77 @@
+.search {
+  /* margin-left: 170px; */
+  margin-top: 50%;
+}
+
+th {
+  border: 1px solid black;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+
+  /* margin-left: 100%; */
+}
+
+th,
+td {
+  border-bottom: 1px solid #151515; /* Adjust the color as needed */
+  padding: 8px 35px;
+  text-align: left;
+}
+
+th {
+  background-color: #4d4d42;
+  color: white; /* Optional: Add a background color to header cells */
+}
+.h2citizen {
+  /* margin-left: 100%; */
+  margin-top: 20%;
+
+  background-color: #4d2d4a;
+  color: white;
+  width: 70%;
+  text-align: center;
+  border-radius: 30px;
+  text-transform: uppercase;
+  /* padding: 1% 5%; */
+}
+.actionicons {
+  display: flex;
+  gap: 4px;
+}
+
+/* seach css */
+
+.input-citizen {
+  width: 300px;
+  
+  border-radius: 30px;
+  margin-right: 100%;
+  padding: 10px;
+  padding-right: 30px;
+}
+input .input-citizen {
+  padding: 30px;
+}
+
+.search-citizen {
+  /* top: 100%; */
+
+  /* Adjust the right distance of the icon */
+  position: absolute;
+  top: 55%;
+  left: 55%;
+  /* Adjust the right distance of the icon */
+  transform: translateY(-50%);
+}
+
+.citizen-container {
+  position: relative;
+  width: 500%;
+  left: 130%;
+  padding: 5px;
+}
+.search-container {
+  margin-top: 15%;
+}

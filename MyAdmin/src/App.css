@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+.container{
+  display: flex;
+  
+}
+main{
+  width: 100px;
+  padding: 20px;
+  
+}
+.menu{
+  cursor: pointer;
+
+}
+.sidebar{
+  background-color: #4D2D4A;
+  padding: 0 40px;
+  color: white;
+  height: 120vh;
+  width: 60%;
+  transition: all 0.5s;
+  /* position: fixed; */
+}
+.topsection{
+  display: flex;
+  align-items: center;
+  padding: 20px 15px;
+}
+.logo{
+  font-size: 25px;
+}
+.bars{
+  display: flex;
+  
+  /* margin-left: 50px; */
+  /* background-color: rgb(173, 173, 194); */
+  padding: 10px;
+  
+  margin-left: 2%;
+  border-radius: 50%;
+  
+}
+.bars img{
+  width: 150px;
+
+}
+.link{
+  display: flex;
+  color: white;
+  padding: 20px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+  font-weight: 500; 
+
+}
+.link:hover{
+  background-color: lightblue;
+  color: black;
+}
+.active {
+  /* background-color: lightblue; */
+  color: #DC771A;
+}
+.icon, .linktext{
+  font-size: 20px;
+}
+.logoutadmin{
+  padding: 10px 30px;
+  margin-top: 30%;
+  border-radius: 20px;
+  margin-left: 30px;
+  font-weight: bold;
+}
+.logoutadmin:hover{
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.logodashboard{
+  width: 80px;
+  height: 50px;
+}
+.email{
+  color:rgb(188, 188, 210);
+  font-size: 20px;
+  border-bottom: 2px solid black;
+  /* box-shadow: 3px 4px 8px rgba(46, 50, 47, 0.76); */
+  text-align: center;
+   
+}
+.login-role{
+  text-align: center;
+  color: whitesmoke;
+}
+/* .rightside{
+ /* margin-left: 30%; */
+  /* background-color: whitesmoke; */
+  /* width: 155vh; */
+
+  
+ 

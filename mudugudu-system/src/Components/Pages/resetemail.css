@@ -1,0 +1,51 @@
+.reset-form{
+    
+    background-color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 100%;
+    align-items: center;
+    /* margin-left: 10%; */
+    text-align: left;
+    padding-left: 5%;
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    border-top: 3px solid #4D2D4A;
+}
+.resetinput{
+    padding: 2% 2%;
+    border-radius: 6px;
+    width: 90%;
+}
+.reset-send{
+    padding: 2% 40%;
+    margin-top: 6%;
+    margin-left: 3%;
+    background-color: #4D2D4A;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    
+}
+.reset-send:hover{
+    background-color: transparent;
+    color: #4D2D4A;
+    border: 2px solid #4D2D4A;
+    font-weight: bold;
+}
+.newpassword{
+    background-color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 100%;
+    align-items: center;
+    /* margin-left: 10%; */
+    text-align: left;
+    padding-left: 5%;
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    border-top: 3px solid #4D2D4A;
+    /* border-left: 3px solid #4D2D4A; */
+
+
+}

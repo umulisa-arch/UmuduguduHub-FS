@@ -1,0 +1,54 @@
+.user-edit-form{
+    margin: 5% 12%;
+    margin-left: -20%;
+    width: 150%;
+    margin-top: 2%;
+    padding: 20%;
+    /* height: 100%; */
+    background-color: rgb(243, 239, 235);
+}
+.user-edit-form input{
+    width: 60%;
+}
+
+.heading-edit-user{
+    text-align: center;
+}
+.edit-user-btn{
+    padding: 2% 13%;
+    margin-left: 20%;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #4D2D4A;
+    color: white;
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+}
+.edit-user-btn:hover{
+    background-color: transparent;
+    border: 2px solid #4D2D4A;
+    color: #4D2D4A;
+    font-weight: bold;
+}
+.cancel-update-user{
+    margin-left: 20%;
+    margin-top: 8%;
+    color: red;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    border: 1px solid rgb(154, 80, 80);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1% 4%;
+    width: 27%;
+    border-radius: 5px;
+}
+.cancel-update-user:hover{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}

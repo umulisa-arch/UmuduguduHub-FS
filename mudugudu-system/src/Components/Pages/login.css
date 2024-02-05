@@ -1,0 +1,323 @@
+body {
+    margin: 0;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+  }
+*{
+    font-family:'poppins', sans-serif;
+}
+.mainlogin{
+    display: flex;
+    justify-content: start;
+   margin-left: 50px;
+    
+}
+
+.container{
+    background-color:white;
+    padding: 10px;
+    display: flex;
+    /* flex-direction: column; */
+    margin: auto;
+    
+    margin-top: 200px;
+    margin: 50px;
+    margin-left: -5px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+    
+}
+@media(max-width:1025px){
+    .mainlogin{
+        flex-direction: column;
+    }
+    .container{
+        border: 1px solid pink;
+    }
+    .container1{
+        border: 1px solid pink;
+
+    }
+    body{
+        background-color: white;
+    }
+
+
+}
+.container1{
+    background-color:white;
+    padding: 10px;
+    display: flex;
+    /* flex-direction: column; */
+    margin: auto;
+    
+    margin-top: 200px;
+    
+    margin: 50px;
+    margin-left: -5px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+   
+
+}
+body{
+    background-color: #F2EFE4;
+    
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+}
+.names{
+    text-align: left;
+    margin: -2% 10%;
+}
+ .confirmpassword{
+    text-align: left;
+    margin: -5% 10%;
+}
+.password, .email{
+    text-align: left;
+    margin: -5% 10%;
+}
+.user{
+    text-align: left;
+    margin: -5% 10%;
+}
+
+
+.username{
+    text-align: left;
+    margin: -2% 10%;
+}
+.text{
+    color: #4D2D4A;
+    font-size: 48px;
+    font-weight: 700;
+    /* text-transform: uppercase; */
+}
+.p1{
+    font-size: 18px;
+}
+.inputs{
+    /* margin-top: 5px; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+
+}
+.input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height: 80px;
+    
+    border-radius: 6px;
+}
+input{
+    padding-left: 10px;
+}
+.input input{
+    
+    width: 400px;
+    height: 40px;
+    margin: 50px;
+    border-radius: 5px;
+}
+.forgot-password{
+    /* padding-left: 62px; */
+    margin-top: 40px;
+    color: #797979;
+    font-size: 13px;
+}
+.dont-have-account{
+    color: #797979;
+    font-size: 13px;
+
+}
+.forgot-password span{
+    color: #4c00b4;
+    cursor: pointer;
+}
+.submit-container{
+    margin: 30px auto;
+    padding-bottom: 20px;
+}
+
+.btn{
+    background-color: #4D2D4A;
+    color: white;
+    padding: 8px 150px;
+    /* padding-left: 150px;
+    padding-right: 150px; */
+    align-items: center;
+    border-radius: 50px;
+    margin-left: 15%;
+    border-radius: 15px;
+    border: 1px solid transparent;
+    
+    font-size: 1em;
+    font-weight: 500;
+    
+   
+    cursor: pointer;
+    transition: border-color 0.25s
+}
+.btn:hover{
+    background-color: transparent;
+    color: black;
+    border: 2px solid #4D2D4A;
+}
+.btn1{
+    background-color: #4D2D4A;
+    color: white;
+    padding: 8px 150px;
+    align-items: center;
+    border-radius: 50px;
+    margin-left: 3%;
+    border-radius: 15px;
+    border: 1px solid transparent;
+    
+    font-size: 1em;
+    font-weight: 500;
+    
+    
+    cursor: pointer;
+    transition: border-color 0.25s
+
+}
+.btn1:hover{
+    background-color: transparent;
+    border: 2px solid #4D2D4A;
+    color: black;
+}
+button{
+    margin: 0 40%;
+}
+.newimage{
+    width: 500px;
+    height: 560px;
+    
+    /* background-color: #4D2D4A;
+    background-image: url(../Pages/abaturage.jpeg); */
+    margin-top: 50px;
+    /* margin-left: -50px; */
+}
+.newimage h1, p{
+    color: #4D2D4A;
+    text-align: center;
+}
+p{
+    font-size: 15px;
+}
+.newdiv{
+    width: 500px;
+    height: 706px;
+    
+    /* background-color: #4D2D4A; */
+    /* background-image: url(../Pages/abaturage.jpeg); */
+    
+    margin-top: 50px;
+    /* margin-left: -50px; */
+
+}
+.newdiv h1{
+    color: black;;
+    text-align: center;
+    margin-top: 180px;
+}
+.newdiv p{
+    color: #4D2D4A;
+    text-align: center;
+}
+
+
+div .loginlink{
+    margin: 5px 10px;
+    color: white;
+    border: 2px solid #88167D;
+    width: 100%;
+    border-radius: 20px;
+    padding: 5px 15px;
+    /* height: 70%; */
+    align-items: center;
+    /* background-color: rgb(0, 0, 0); */
+    font-size: 15px;
+    
+    
+}
+div .signuplink{
+    color: white;
+    border: 2px solid #88167D;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin: -1% 50%;
+    border-radius: 20px;
+    padding: 5px 15px;
+    /* height: 70%; */
+    /* background-color: black; */
+    font-size: 15px;
+    
+
+}
+
+.loginsignup{
+    display: flex;
+    justify-content: space-around;
+}
+@media(max-width: 1000px){
+    .loginsignup{
+        /* flex-direction: column; */
+
+    }
+
+}
+.signuplink:hover{
+    background-color: white;
+    color: black;
+}
+/* .signuplink{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+} */
+
+.loginlink:hover{
+    background-color: white;
+    color: black;
+}
+.haveAccount{
+    font-size: 13px;
+    color: rgb(182, 173, 173);
+    
+}
+.signup-success{
+    padding: 3% 8%;
+    border-left: 2px solid rgb(63, 25, 215);
+    background-color: rgb(75, 251, 251);
+    color: green;
+    left: 80%;
+
+}
+.signup-fail{
+    padding: 3% 3%;
+    border-left: 2px solid red;
+    background-color: rgb(230, 125, 125);
+    color: rgb(84, 23, 23);
+}
+
+
+
+/* from chat */
+
+
+

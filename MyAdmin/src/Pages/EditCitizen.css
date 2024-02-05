@@ -1,0 +1,197 @@
+.register-form{
+    /* border: 2px solid #4D2D4A; */
+    box-shadow:  0 0 10px rgba(0, 0, 0, 0.5);
+    border-top: 5px solid #4D2D4A;
+}
+
+
+.register-container{
+    
+  width: 100%;
+  left: 100%;
+  padding: 5px;
+
+}
+
+
+.h2register{
+    margin-left: 200%;
+    margin-top: 25%;
+    
+    background-color: #4D2D4A;
+    color: white;
+    width: 650%;
+    text-align: center;
+    border-radius: 30px;
+    text-transform: uppercase; 
+}
+.adminoption{
+    display: flex;
+   align-items: center;
+}
+.useroption{
+    display: flex;
+    align-items: center;
+}
+.useropt{
+    margin-left: 3%;
+}
+.maritaloption{
+    display: flex;
+    align-items: center;
+}
+.marriedopt{
+    margin-right: 3%;
+}
+.reg-btn{
+    padding: 1% 15%;
+    margin-left: 32%;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #4D2D4A;
+    color: white;
+    margin-top: 7%;
+}
+.reg-btn:hover{
+    background-color: transparent;
+    border: 2px solid #4D2D4A;
+    color: #4D2D4A;
+    font-weight: bold;
+}
+.register-form{
+    width: 750%;
+    margin-left: 200%;
+    margin-top: 30%;
+
+}
+.register-form label{
+    margin-top: 1%;
+    /* margin-left: 3%; */
+}
+.part1-register{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 10%;
+}
+.part1-register-2{
+    display: flex;
+    justify-content: space-around;
+
+}
+.part2-register{
+    display: flex;
+    justify-content: space-between;
+    /* margin-right: 5%; */
+}
+.part3-register{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 5%;
+}
+.part4-register{
+    display: flex;
+    justify-content: space-evenly;
+}
+.reg-input{
+    padding: 3% 3%;
+    width: 100%;
+    margin-top: 3%;
+}
+.reg-input2{
+    padding: 3% 3%;
+    width: 100%;
+    margin-top: 3%;
+}
+.reg-input3{
+    padding: 3% 3%;
+    width: 100%;
+    margin-top: 6%;
+}
+.reg-input4{
+    padding: 3% 3%;
+    width: 100%;
+    margin-top: 6%;
+}
+.first-name{
+    flex-direction: column;
+    
+}
+.reg-country{
+    margin-left: -8%;
+}
+.reg-employ{
+    margin-left: -6%;
+}
+.last-name{
+    flex-direction: column;
+}
+.reg-email{
+    flex-direction: column;
+}
+.reg-phone{
+    flex-direction: column;
+
+}
+.reg-date{
+    flex-direction: column; 
+    margin-right: 3%;
+}
+.reg-id{
+    flex-direction: column;
+   
+}
+.reg-akarere{
+    flex-direction: column;
+   
+}
+.reg-sector{
+    flex-direction: column;
+}
+.reg-cell{
+    flex-direction: column;
+   
+}
+.reg-village{
+    flex-direction: column;
+    margin-right: 3%;
+}
+#role{
+    margin-left: 10%;
+    
+}
+#marital{
+    margin-left: 7%;
+    display: flex;
+    
+}
+.h4-residence{
+    margin-left: 4%;
+    
+}
+.maritaloption{
+    margin-left: 10%;
+
+}
+.h4-role{
+    margin-left: 4%;
+}
+.adminoption{
+    margin-left: 10%;
+}
+.useroption{
+    margin-left: 10%;
+
+}
+.reg-dob{
+    width: 146%;
+    padding: 3% 3%;
+    
+}
+.demographic{
+    display: flex;
+    justify-content: space-evenly;
+}
+.h4-menities{
+    margin-left: -4%;
+}
+

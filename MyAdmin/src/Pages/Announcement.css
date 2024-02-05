@@ -1,0 +1,84 @@
+
+form input, textarea{
+    padding: 3% 4%;
+    border-radius: 5px;
+    
+    width: 90%;
+}
+select{
+    padding: 3% 4%;
+    width: 98%;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+form{
+    margin-left: 150%;
+    border: 1px solid green;
+    width: 150%;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    margin-top: 30%;
+}
+
+.btnmessage{
+    margin-left: 30%;
+    border-radius: 20px;
+    padding: 5px 35px;
+    background-color: #4D2D4A;
+    color: white;
+    cursor: pointer;
+}
+.btnmessage:hover{
+    background-color: transparent;
+    color: #4D2D4A;
+    border: 2px solid #4D2D4A;
+    font-weight: bold;
+}
+
+.h1Announce{
+    margin-left: 140%;
+    margin-top: 50%;
+    
+    background-color: #4D2D4A;
+    color: white;
+    width: 400px;
+    text-align: center;
+    justify-content: center;
+    place-items: center;
+    border-radius: 30px;
+    text-transform: uppercase;
+
+}
+.div1announce{
+    width: 30vh;
+    margin-top: 20%;
+}
+.msg-sent{
+    margin-left: 800%;
+    margin-top: 5%;
+    padding: 8% 0;
+    font-weight: bold;
+    border-radius: 8px;
+
+    border-left: 2px solid rgb(6, 55, 29);
+    background-color: green;
+    color: white;
+    /* left: 100%; */
+    width: 300%;
+    height: 10%;
+    text-align: center;
+   
+
+}
+.msg-fail{
+    margin-left: 200%;
+    margin-top: 15%;
+    padding: 2% 0;
+    border-left: 2px solid red;
+    background-color: rgb(230, 125, 125);
+    color: rgb(84, 23, 23);
+    width: 650%;
+    text-align: center;
+
+}

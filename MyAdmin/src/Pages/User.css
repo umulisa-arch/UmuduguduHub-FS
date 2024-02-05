@@ -1,0 +1,79 @@
+.user-container{
+  /* border: 1px solid red; */
+  position: relative;
+  width: 500%;
+  left: 100%;
+  padding: 5px;
+}
+.search{
+    margin-left: 250px;
+    margin-bottom: -100px;
+}
+
+.input{
+    /* margin-left: 100%; */
+    width: 100%;
+    padding: 2px 10px;
+    border-radius: 30px;
+    margin-right: 100%;
+    
+}
+th{
+    border: 1px solid black;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    
+    /* margin-left: 100%; */
+  }
+  
+  th, td {
+    border-bottom: 1px solid #151515; /* Adjust the color as needed */
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2; /* Optional: Add a background color to header cells */
+  }
+  .h2user{
+    
+    margin-top: 20%;
+    
+    background-color: #4D2D4A;
+    color: white;
+    width: 70%;
+    text-align: center;
+    border-radius:  30px;
+    text-transform: uppercase;
+
+
+  }
+  .actions-icon{
+    display: flex;
+    gap: 5px;
+  }
+
+  /* seach css */
+  .search-container {
+    position: relative;
+}
+
+.input {
+    padding-right: 30px; /* Adjust the padding to accommodate the icon */
+    width: 60%;
+    height: 30px;
+}
+
+.search-icon {
+    position: absolute;
+    top: 55%;
+    left: 55%;
+     /* Adjust the right distance of the icon */
+    transform: translateY(-50%);
+}
+.view-table{
+  margin-left: 100%;
+}
+
