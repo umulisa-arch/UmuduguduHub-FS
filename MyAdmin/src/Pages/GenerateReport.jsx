@@ -39,6 +39,7 @@ function Generatereport() {
   }, []);
 
   return (
+    <>
     <div>
       <h2 data-aos="fade-down" className="reports">
         Welcome to <br />UMUDUGUDU-HUB
@@ -79,6 +80,8 @@ function Generatereport() {
         </p>
       </div>
     </div>
+    </>
+
   );
 }
 export default Generatereport;

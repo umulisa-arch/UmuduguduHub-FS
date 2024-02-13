@@ -22,11 +22,11 @@ function Landinguser() {
 
     <>
     <div className='user-landing'>
-      <h2 data-aos="fade-down" className='h2-user'>WELCOME TO </h2>
+      <h3 data-aos="fade-down" className='h2-user'>WELCOME TO </h3>
         <br />
         
         
-         <h1 data-aos="fade-up" className='h1-user'>UMUDUGUDU-HUB </h1>
+         <h2 data-aos="fade-up" className='h1-user'>UMUDUGUDU-HUB </h2>
     </div>
 
     <div className='user-leftside' data-aos="fade-up">

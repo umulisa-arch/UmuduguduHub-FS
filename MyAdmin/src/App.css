@@ -51,7 +51,9 @@ main{
 .link{
   display: flex;
   color: white;
-  padding: 20px 15px;
+  padding: 10px 15px;
+  /* padding: 30px 15px; */
+
   gap: 15px;
   transition: all 0.5s;
   font-weight: 500; 
@@ -70,7 +72,7 @@ main{
 }
 .logoutadmin{
   padding: 10px 30px;
-  margin-top: 30%;
+  margin-top: 15%;
   border-radius: 20px;
   margin-left: 30px;
   font-weight: bold;
@@ -89,7 +91,7 @@ main{
 .email{
   color:rgb(188, 188, 210);
   font-size: 20px;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid rgb(201, 185, 185);
   /* box-shadow: 3px 4px 8px rgba(46, 50, 47, 0.76); */
   text-align: center;
    

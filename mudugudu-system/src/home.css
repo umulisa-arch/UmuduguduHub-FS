@@ -50,13 +50,14 @@
   }
   .landing{
     
-    padding: 10%;
+    padding: 3%;
     background: linear-gradient(rgb(18, 16, 17), rgb(177, 129, 165));
     box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.4);
     border-radius: 6px;
   }
   .h1{
     color: white;
+    /* font-size: 30px; */
   }
   .h2{
     color: white;
