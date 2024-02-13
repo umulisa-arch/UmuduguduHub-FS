@@ -6,12 +6,17 @@ import { SiGoogleforms } from "react-icons/si";
 import { FaRegUser } from "react-icons/fa";
 import { RiGroupLine } from "react-icons/ri";
 import { MdAccountBalance } from "react-icons/md";
+import {useSearchParams } from 'react-router-dom';
 
 
 
 
 function Sidebar({children}) {
-  const [email,setEmail] = useState("")
+  let [searchParams] = useSearchParams();
+
+  const email = searchParams.get("email")
+  const role = searchParams.get("role")
+  
   const data = JSON.parse(localStorage.getItem("userInfo"))
   console.log(data);
   
@@ -84,8 +89,8 @@ function Sidebar({children}) {
               {/* <FaRegUser size={60} /> */}
               </div>
             </div><br /><br /><br />
-            <div className="email"> {data?.email}vanessarabie12@gmail.com <br />User</div><br />
-            <div className='email'>{data?.role}</div>
+            <div className="email"> {email!==null?email:JSON.parse(localStorage.getItem("userInfo"))?.email} <br />{role!==null?role:JSON.parse(localStorage.getItem("userInfo"))?.role}</div><br />
+            {/* <div className='email'>{data?.role}</div> */}
          
             {
   menuItem.map((item, index) => (

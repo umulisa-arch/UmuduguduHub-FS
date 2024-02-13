@@ -13,10 +13,13 @@ function Dashboard() {
   const role = searchParams.get("role");
   // const firstName = searchParams.get("firstName")
   const userInfo = { email, role };
-  
+  console.log("I love you agnes",{token,
+    email,
+    role})
 
   useEffect(() => {
     if (token !== "" && role === "admin") {
+      
       localStorage.setItem("token", token);
       localStorage.setItem("userInfo", JSON.stringify(userInfo));
     } else {

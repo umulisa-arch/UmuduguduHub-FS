@@ -8,15 +8,22 @@ import { BsBarChartLineFill } from "react-icons/bs";
 import { FaRegUser } from "react-icons/fa";
 
 import { FaUserPlus } from "react-icons/fa";
+import { useSearchParams } from 'react-router-dom';
 
 const Sidebar = ({ children }) => {
   const [isOpen, setIsOpen] = useState(false);
-  const [email,setEmail] = useState("")
   const toggle = () => setIsOpen(!isOpen);
+
+  let [searchParams] = useSearchParams();
+
+  let email = searchParams.get("email")
+  let role = searchParams.get("role")
+
+  
   
 
   const data = JSON.parse(localStorage.getItem("userInfo"))
-  console.log(data)
+  
  
 //  if(data){
 //   setEmail(data?.email)
@@ -91,8 +98,8 @@ const Sidebar = ({ children }) => {
             {/* <FaRegUser size={60} /> */}
           </div>
         </div>
-          <div className="email"> {data?.email} hirwa@gmail.com <br />Admin</div>
-         <div className="login-role"> {data?.role}</div>
+          <div className="email">{email!==null?email:JSON.parse(localStorage.getItem("userInfo"))?.email} <br />{role!==null?role:JSON.parse(localStorage.getItem("userInfo"))?.role}</div>
+         {/* <div className="login-role"> {role}</div> */}
          {/* <div>{data?.user}</div> */}
         
 
